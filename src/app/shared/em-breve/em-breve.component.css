@@ -7,6 +7,25 @@
   transform: scale(1.1);
 }
 
+ styles.css /
+::ng-deep .pagination {
+    background-color: yellow;
+}
+
+::ng-deep .page-item.active .page-link {
+    background-color: black;
+    color: yellow;
+}
+
+::ng-deep .page-link {
+    color: black;
+}
+
+::ng-deep .pagination .page-item.active .page-link {
+    border-color: yellow !important;
+    box-shadow: none !important;
+  }
+
 /* Adicione estas regras CSS no seu arquivo de estilo CSS personalizado */
 
 .custom-pagination {
